@@ -1,0 +1,95 @@
+/** {
+    border: 1px solid red !important;
+}*/
+
+html {
+    background: url("/img/main-bg.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    box-sizing: border-box;
+}
+
+#hamburger {
+    color: #fff;
+    font-size: 20px;
+}
+
+.twitterFB {
+    display: flex;
+    margin-right: 15px;
+    color: #fff;
+}
+
+#twitterIcon {
+    font-size: 20px
+}
+
+#facebookIcon {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.text-menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    display: none;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.top-section {
+    text-align: center;
+    margin-top: 185px;
+}
+
+.yourBig {
+    font-size: 60px;
+    height: 55px;
+}
+
+.personal {
+    font-size: 20px;
+}
+
+.bottomIcon {
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#circleDown {
+    color: #fff;
+}
+
+@media (min-width: 450px) {
+    #hamburger {
+        display: none;
+    }
+    .twitterFB {
+        display: none;
+    }
+    .text-menu {
+        display: flex;
+    }
+}
